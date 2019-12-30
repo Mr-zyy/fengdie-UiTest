@@ -1,0 +1,9 @@
+node_modules
+.docz
+dist
+lib
+es
+.rpt2_cache
+yarn-error.log
+coverage
+.doc
