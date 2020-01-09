@@ -1,14 +1,14 @@
 {
   "name": "@fengdie-ui/modal-form",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "entry": "src/index.tsx",
   "dependencies": {
-    "sunflower-antd": "0.9.0",
     "antd": "^3.19.3",
-    "react": "^16.8.4"
+    "react": "^16.8.4",
+    "sunflower-antd": "0.9.0"
   },
   "peerDependencies": {
     "antd": "^3.19.3",
