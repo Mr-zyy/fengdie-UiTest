@@ -29,5 +29,8 @@
     "react-syntax-highlighter": "^11.0.1",
     "react-test-renderer": "^16.9.0",
     "umi-lint": "2.0.2"
+  },
+  "dependencies": {
+    "sunflower-antd": "^0.9.0"
   }
 }

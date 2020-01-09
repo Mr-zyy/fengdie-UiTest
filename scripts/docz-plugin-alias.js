@@ -6,6 +6,7 @@ const alias = () =>
   createPlugin({
     onCreateWebpackChain: config => {
       const list = glob.sync(join(__dirname, "../packages/*"));
+      console.log(list);
       list.forEach(item => {
         const array = item.split("/");
         const pkg = join(
@@ -15,6 +16,7 @@ const alias = () =>
           "package.json"
         );
         const { name, entry } = require(pkg);
+        console.log(name)
         if (!entry) {
           return;
         }

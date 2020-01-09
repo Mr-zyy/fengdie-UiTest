@@ -17,8 +17,8 @@ export default {
     plugins: [
       alias(),
     ],
-    title: 'sunflower',
-    base: '/sunflower/',
+    title: 'sunflower-UI',
+    base: '/sunflower-UI/',
     description: 'Collection of React Hooks returning components of antd.',
     repository: 'https://github.com/ant-design/sunflower',
     ordering: 'ascending',
@@ -36,7 +36,8 @@ export default {
     },
     menu: [
       'Overview',
-      'Hooks',
+      // 'Hooks',
+      'Component',
     ]
   },
 }
